@@ -3,16 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomePage } from './pages/home/home.page';
 import { BookmarksPage } from './pages/bookmarks/bookmarks.page';
 
-
 const routes: Routes = [
-  {
-    path: '',
-    component: HomePage,
-  },
-  {
-    path: 'bookmarks',
-    component: BookmarksPage
-  }
+  { path: '', component: HomePage },
+  { path: 'bookmarks', component: BookmarksPage }
 ];
 
 @NgModule({
