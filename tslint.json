@@ -18,7 +18,7 @@
     "directive-class-suffix": [
      true,
     "Component",
-    "Page",
+    "Page"
     ],
     "directive-selector": [
       true,
